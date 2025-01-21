@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://portafolio-jhunior-ccora.vercel.app/",
+      "https://portafolio-jhunior-ccora.vercel.app",
     ],
   })
 );
