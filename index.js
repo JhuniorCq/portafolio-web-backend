@@ -12,7 +12,7 @@ app.disable("x-powered-by");
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
+      "http://localhost:5173",
       "https://portafolio-jhunior-ccora.vercel.app",
     ],
   })
