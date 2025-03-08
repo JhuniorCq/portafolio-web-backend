@@ -26,12 +26,12 @@ class EmailController {
 
       // Configuración del transporter
       const transporter = nodemailer.createTransport({
-        host: EMAIL_HOST, // Servidor SMTP (aquí Gmail como ejemplo)
-        port: EMAIL_PORT, // Puerto SMTP (587 para STARTTLS)
-        secure: false, // false para STARTTLS (true si usas el puerto 465)
+        host: EMAIL_HOST,
+        port: EMAIL_PORT,
+        secure: false,
         auth: {
-          user: EMAIL_USER, // Tu correo electrónico
-          pass: EMAIL_PASS, // Contraseña de aplicación (no tu contraseña normal)
+          user: EMAIL_USER,
+          pass: EMAIL_PASS,
         },
       });
 
